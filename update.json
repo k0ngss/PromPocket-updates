@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "首个公开 Windows x64 便携版，提供原生桌面程序与独立 CLI。",
-    "本地 Markdown 提示词库、分类拖拽、变量填写、实时预览与复制。",
-    "支持 Agent 结构化 API、版本冲突保护和回收站。",
-    "程序内检查更新、HTTPS 下载、SHA-256 校验，关闭后升级并保留提示词库。",
-    "源码保存在私有仓库；公开仓库仅提供发布包、更新清单与校验值。"
+    "统一冰蓝品牌配色，提高正文、导航、输入框与主要操作的视觉层级。",
+    "分类、提示词列表与变量栏随窗口宽度调整，改善小窗口阅读与大窗口变量填写。",
+    "强化提示词选中标记、输入焦点和按钮反馈，调整标题字重与内容间距。",
+    "增加空分类、无搜索结果与未选择提示词时的操作指引，简化编辑与使用提示。",
+    "保留原提示词库、分类、回收站及个人配置。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.0",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.0/PromPocket-0.1.0-windows-x64.zip",
-  "portable_sha256": "0ca853310a7e07b088f83d9425411d481390de6e600b0d537222349da1243ce9",
-  "portable_size": 1000394
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.1",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.1/PromPocket-0.1.1-windows-x64.zip",
+  "portable_sha256": "f2550bfd2b74d9b6a90f1a78bbdfd8084ce0ece5781b82ef538d296c74d0c420",
+  "portable_size": 1001010
 }
