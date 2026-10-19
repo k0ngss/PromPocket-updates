@@ -1,24 +1,23 @@
 {
   "schema_version": 1,
-  "version": "0.1.7",
+  "version": "0.1.8",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "参考 LiteView，新增免管理员权限的当前用户安装包，支持选择安装位置、开始菜单和可选桌面快捷方式。",
-    "安装版下载并校验安装 EXE 后通过安装器升级；便携版继续校验 ZIP 并仅替换两个程序，自动识别使用方式。",
-    "安装及升级等待旧进程正常退出；文件占用时停止，保留旧程序、原提示词库与个人设置。",
-    "升级前备份原程序、提示词库和设置，并逐文件校验；升级后重新打开原库。",
-    "Windows 卸载入口只移除程序、快捷方式与注册项，保留 library、回收站、个人配置和恢复备份；重装继续使用原库。"
+    "每次启动自动静默检查更新，移除用户开关，旧版关闭设置不再影响检查。",
+    "更新页面只保留一个“检查更新”入口；发现新版后才显示下载、安装及跳过操作。",
+    "移除无更新时的无效按钮，压缩页面留白；最新版状态显示实际发布说明，不再出现检查前占位文案。",
+    "保留下载确认、取消重试、草稿保护、安装/便携升级及原提示词库备份验证。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.7",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.7/PromPocket-0.1.7-windows-x64.zip",
-  "portable_sha256": "2f1fbf0acccfc7ef24f363b7e0e8c577b4db040b4285ec9a69d1e2ecb292cd34",
-  "portable_size": 998337,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.7/PromPocket-Setup-0.1.7.exe",
-  "installer_sha256": "965dd7b21ec07fb8a60ab2dc21ae653a033e63f6c603264e516a513299b803d3",
-  "installer_size": 798611,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.8",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.8/PromPocket-0.1.8-windows-x64.zip",
+  "portable_sha256": "d3950337dc03bba23a5225e39f3a4a665719b8bf714a7ba1d97a83e90b08ac64",
+  "portable_size": 998122,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.8/PromPocket-Setup-0.1.8.exe",
+  "installer_sha256": "ec6ec5c8cda7ffd1cccf0eb650974c0ae15a2bfba47ff8f5e4f1bcdea7e9e1bd",
+  "installer_size": 798030,
   "binary_sha256": {
-    "prompt.exe": "c5a8ad6f5f1d6f6c9f1b658b5ce4ff879570a2384a927433d5c0aee9a527db37",
-    "prompt-desktop.exe": "0b2f0765b95e7f0c40ad94930853e93bf252328648ab06750faba45fe98efbfc"
+    "prompt.exe": "ed36573f93a033dee52c819689d75e14241d2ef6a593e6c8b8f4ea29fd668d42",
+    "prompt-desktop.exe": "4130ef694fb65b60c034e4033e200f1900d246096d44aa58e6ec5ee44bd79df1"
   }
 }
