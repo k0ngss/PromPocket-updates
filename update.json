@@ -1,16 +1,24 @@
 {
   "schema_version": 1,
-  "version": "0.1.6",
+  "version": "0.1.7",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "更新状态改用可重试读取的文件快照，避免 Windows 高频替换状态文件导致下载中断。",
-    "包含参考 LiteView 的独立更新页面、静默检查、版本说明、跳过版本、下载进度与取消重试。",
-    "安装前保留草稿，备份并逐文件核对原库，只替换两个程序，升级后正常显示原提示词库。",
-    "兼容从 PowerShell 7 启动应用，真实下载、校验、正常关闭、安装与原库重启验证通过。"
+    "参考 LiteView，新增免管理员权限的当前用户安装包，支持选择安装位置、开始菜单和可选桌面快捷方式。",
+    "安装版下载并校验安装 EXE 后通过安装器升级；便携版继续校验 ZIP 并仅替换两个程序，自动识别使用方式。",
+    "安装及升级等待旧进程正常退出；文件占用时停止，保留旧程序、原提示词库与个人设置。",
+    "升级前备份原程序、提示词库和设置，并逐文件校验；升级后重新打开原库。",
+    "Windows 卸载入口只移除程序、快捷方式与注册项，保留 library、回收站、个人配置和恢复备份；重装继续使用原库。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.6",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.6/PromPocket-0.1.6-windows-x64.zip",
-  "portable_sha256": "bc3c6142aedb18c76bfcfb85aaa0a93677affcb9227f32a131176896caffbcbe",
-  "portable_size": 997356
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.7",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.7/PromPocket-0.1.7-windows-x64.zip",
+  "portable_sha256": "2f1fbf0acccfc7ef24f363b7e0e8c577b4db040b4285ec9a69d1e2ecb292cd34",
+  "portable_size": 998337,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.7/PromPocket-Setup-0.1.7.exe",
+  "installer_sha256": "965dd7b21ec07fb8a60ab2dc21ae653a033e63f6c603264e516a513299b803d3",
+  "installer_size": 798611,
+  "binary_sha256": {
+    "prompt.exe": "c5a8ad6f5f1d6f6c9f1b658b5ce4ff879570a2384a927433d5c0aee9a527db37",
+    "prompt-desktop.exe": "0b2f0765b95e7f0c40ad94930853e93bf252328648ab06750faba45fe98efbfc"
+  }
 }
