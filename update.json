@@ -1,17 +1,16 @@
 {
   "schema_version": 1,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "统一冰蓝品牌配色，提高正文、导航、输入框与主要操作的视觉层级。",
-    "分类、提示词列表与变量栏随窗口宽度调整，改善小窗口阅读与大窗口变量填写。",
-    "强化提示词选中标记、输入焦点和按钮反馈，调整标题字重与内容间距。",
-    "增加空分类、无搜索结果与未选择提示词时的操作指引，简化编辑与使用提示。",
-    "保留原提示词库、分类、回收站及个人配置。"
+    "按参考风格调整为 Monokai 暖灰界面：背景 #272822、前景 #F8F8F2、强调色 #99947C。",
+    "统一选中项、变量块、菜单、滚动条与窗口按钮的暖灰交互状态。",
+    "输入框使用柔和细边框，操作按钮改为胶囊形，优先使用本机中文无衬线字体。",
+    "保留自适应四栏布局、原提示词库、分类、回收站和个人配置。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.1",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.1/PromPocket-0.1.1-windows-x64.zip",
-  "portable_sha256": "f2550bfd2b74d9b6a90f1a78bbdfd8084ce0ece5781b82ef538d296c74d0c420",
-  "portable_size": 1001010
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.2",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.2/PromPocket-0.1.2-windows-x64.zip",
+  "portable_sha256": "e706533689a900a4ef194f4faf6faf21f6288666a2e5e49fb1b161f16554d8b3",
+  "portable_size": 1001089
 }
