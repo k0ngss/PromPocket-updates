@@ -1,24 +1,21 @@
 {
   "schema_version": 1,
-  "version": "0.1.9",
+  "version": "0.1.10",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "移除顶部“刷新”“检查”“回收站”，保留文件变化自动刷新与版本更新入口。",
-    "删除提示词改为将原始 MD 文件移入 Windows 回收站，可从电脑回收站还原；回收失败时不改为永久删除。",
-    "原软件回收站的 MD 和恢复记录完整保留；有旧记录时，可在分类旁“···”菜单选择“恢复旧回收站”。",
-    "CLI 删除同步使用系统回收站；旧记录仍可通过 trash list / restore 管理，库检查保留在 CLI。",
-    "修复编辑期间发生外部修改后，取消编辑仍显示旧内容的问题；现在自动读取最新文件。"
+    "精简更新窗口，合并重复状态，减少留白。",
+    "更新说明更紧凑，下载、取消和安装操作保持不变。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.9",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.9/PromPocket-0.1.9-windows-x64.zip",
-  "portable_sha256": "84808dd06b94378559c3eda40616c097c67420cff87e5c1bdd2147e9a804dd24",
-  "portable_size": 1013032,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.9/PromPocket-Setup-0.1.9.exe",
-  "installer_sha256": "dd3a705dc420062cffea0806a579db77f0d3add14b15e3a8d2cc6e8abbd4a2b4",
-  "installer_size": 807269,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.10",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.10/PromPocket-0.1.10-windows-x64.zip",
+  "portable_sha256": "5cb5ffa717ec4dccbbd917fb93824aace7347b71c53ead94f088fe6be7eab440",
+  "portable_size": 1012375,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.10/PromPocket-Setup-0.1.10.exe",
+  "installer_sha256": "e7ad0f77572c17327bb1da723a183c3d631055c9a7cca7542e77d9bd665cf4e0",
+  "installer_size": 806630,
   "binary_sha256": {
-    "prompt.exe": "8250c06a194351e4148472b16bdf1784c25e11ff7ca0d9c6ae3563c9de1ccd89",
-    "prompt-desktop.exe": "7b2e6bada28794ef7abdf4ae1c27503310cfdc1ea5def9569fb23c5b11a8502c"
+    "prompt.exe": "282b5af182080b946f75eead66cf6d29cadb11cbc416ecbe47984f88c9309fda",
+    "prompt-desktop.exe": "c052353c20fbd76367fd8903483d11bff96eb36eb7367ea1186b0b889965cba4"
   }
 }
