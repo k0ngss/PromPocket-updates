@@ -6,7 +6,7 @@ Windows x64 本地 Markdown 提示词库，提供原生桌面程序与独立 CLI
 
 前往 [最新版本](https://github.com/k0ngss/PromPocket-updates/releases/latest) 下载 `PromPocket-Setup-版本.exe` 安装版，或下载 Windows x64 ZIP 便携版。安装版默认安装到当前用户 `%LOCALAPPDATA%\Programs\PromPocket`，不需要管理员权限，提供开始菜单、可选桌面快捷方式和系统卸载入口。
 已有便携版可选择原程序目录安装，原库会备份并保留；若安装到新目录，请先备份并复制自己的 `library/`。
-提示词保存在程序旁的 `library/`。CLI 使用方法：`prompt.exe --help` 或 `prompt.exe api`。
+提示词保存在程序旁的 `library/`，文件变化自动刷新。删除 MD 进入 Windows 回收站，可在电脑回收站还原；旧软件回收站完整保留，有旧记录时从分类旁“···”菜单恢复。CLI 使用方法：`prompt.exe --help` 或 `prompt.exe api`。
 
 顶部“版本更新”展示版本与更新说明，每次启动自动静默检查，不提供关闭开关，只提示新版，不自动下载。页面仅保留一个检查更新入口。
 支持跳过版本、下载进度和取消；点击下载后校验大小与 SHA-256。
