@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "version": "0.1.10",
+  "version": "0.1.11",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "精简更新窗口，合并重复状态，减少留白。",
-    "更新说明更紧凑，下载、取消和安装操作保持不变。"
+    "参考 LiteView，将版本更新改为无系统标题栏的轻量浮层。",
+    "关闭浮层后可继续编辑，草稿和变量填写保留；下载可在后台进行。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.10",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.10/PromPocket-0.1.10-windows-x64.zip",
-  "portable_sha256": "5cb5ffa717ec4dccbbd917fb93824aace7347b71c53ead94f088fe6be7eab440",
-  "portable_size": 1012375,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.10/PromPocket-Setup-0.1.10.exe",
-  "installer_sha256": "e7ad0f77572c17327bb1da723a183c3d631055c9a7cca7542e77d9bd665cf4e0",
-  "installer_size": 806630,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.11",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.11/PromPocket-0.1.11-windows-x64.zip",
+  "portable_sha256": "15e994e1d058908d182357acf63803228f88c0817c21996fad439d7911e5d888",
+  "portable_size": 1013817,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.11/PromPocket-Setup-0.1.11.exe",
+  "installer_sha256": "6c3846ca63e815bbcaaae6d3d450f7559d3319d35881c184093c7c502aebacbb",
+  "installer_size": 807856,
   "binary_sha256": {
-    "prompt.exe": "282b5af182080b946f75eead66cf6d29cadb11cbc416ecbe47984f88c9309fda",
-    "prompt-desktop.exe": "c052353c20fbd76367fd8903483d11bff96eb36eb7367ea1186b0b889965cba4"
+    "prompt.exe": "1d3f01adc8adad66350d1fd34c40be07215be9ebf5e2f60d797284480035856c",
+    "prompt-desktop.exe": "3faa8c24aca4bb1cdd4cbc97238334042c5f2c3f08ce95badd55fc9e7e228e99"
   }
 }
