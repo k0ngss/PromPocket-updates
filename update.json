@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "version": "0.1.21",
+  "channel": "stable",
+  "arch": "windows-x64",
+  "notes": [
+    "项目正式更名为 PrompTray，统一桌面界面、程序资源、安装包、快捷方式、文档及发布仓库名称。",
+    "安装版兼容原 PromPocket 安装目录与注册信息，升级保留原提示词库、回收记录和个人配置。",
+    "更新器兼容旧安装标识与跳过版本配置，并为旧版客户端保留专用更新迁移入口。",
+    "命令行与 Agent API 继续使用 prompt.exe，桌面启动文件继续使用 prompt-desktop.exe。"
+  ],
+  "release_url": "https://github.com/k0ngss/PrompTray-updates/releases/tag/v0.1.21",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.21/PromPocket-0.1.21-windows-x64.zip",
+  "portable_sha256": "5c261dd6545b91c56f6990ecb1b16ed757b3387f5f415b8a0265a65e4aee00ae",
+  "portable_size": 1344284,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.21/PromPocket-Setup-0.1.21.exe",
+  "installer_sha256": "0d6662e5124f91eccde96ce0995def98923bb71e33a689fed85e59ee72d44313",
+  "installer_size": 967261,
+  "binary_sha256": {
+    "prompt.exe": "a093dd76841076da208c56a8ad6d3572287cbe854c2054300d7a07c8af08fdb5",
+    "prompt-desktop.exe": "4497179f88b1212686d91e0f638cb5b62a0114c3e4799b1d3f68e54a223157ee"
+  }
+}
